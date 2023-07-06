@@ -119,3 +119,6 @@ resources/guidance
 resources/report
 logs/
 screenshots/
+screengrabs/
+!screengrabs/README.md
+
