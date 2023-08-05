@@ -6,7 +6,7 @@ Used for OTT strategic - UK data
 
 - Create and activate a virtual environment, e.g.
 
-  `python3 -m venv venv/`
+  `python -m venv venv/`
 
   `source venv/bin/activate`
 
@@ -27,25 +27,25 @@ Used for OTT strategic - UK data
 
 ## Installation
 
-- Install necessary Python modules via `pip3 install -r requirements.txt`
+- Install necessary Python modules via `pip install -r requirements.txt`
 
 ## Usage
 
 ### To translate a Word document:
 
 The following are in a modern 2-column format
-- `python3 process.py "EU PSR.docx"`
-- `python3 process.py "Japan PSR.docx"`
-- `python3 process.py "Turkey PSR.docx"`
-- `python3 process.py "Canada PSR.docx"`
-- `python3 process.py "Albania PSR.docx"`
-- `python3 process.py "South Korea PSR.docx"`
+- `python process.py "EU PSR.docx"`
+- `python process.py "Japan PSR.docx"`
+- `python process.py "Turkey PSR.docx"`
+- `python process.py "Canada PSR.docx"`
+- `python process.py "Albania PSR.docx"`
+- `python process.py "South Korea PSR.docx"`
 
 The following are in an inherited 3- or 4 column format
-- `python3 process.py "SACUM PSR.docx"`
-- `python3 process.py "Ukraine PSR.docx"`
+- `python process.py "SACUM PSR.docx"`
+- `python process.py "Ukraine PSR.docx"`
 etc.
 
 
 To batch process all documents (both new and legacy)
-- `python3 batch.py`
+- `python batch.py`
